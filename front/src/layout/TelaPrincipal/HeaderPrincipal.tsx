@@ -7,8 +7,8 @@ const HeaderPrincipal: React.FC = () => {
       <h1 className="text-center text-black mt-2">
         MAPEAMENTO E PREVISÃO DE CINTILAÇÃO IONOSFÉRICA
       </h1>
-      <div className="w-full bg-white h-12 mt-4 flex items-center">
-        <div className="flex space-x-4 pl-4">
+      <div className="w-full bg-white h-12 mt-4 flex items-center justify-center">
+        <div className="flex space-x-4">
           <Botao2 />
           <Botao3 />
           <Botao4 />

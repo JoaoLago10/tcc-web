@@ -3,7 +3,7 @@ import React from 'react';
 function MainSection3() {
   return (
     <div>
-      <h1>TELA 2</h1>
+      <h1>TELA 3</h1>
     </div>
   );
 }

@@ -1,13 +1,13 @@
-import React from "react";
-import HeaderPrincipal from "../layout/TelaPrincipal/HeaderPrincipal";
+import React from 'react';
+import HeaderPrincipal from '../layout/TelaPrincipal/HeaderPrincipal';
 
-function TelaPrincipal() {
-    return (
-        <div>
-          <HeaderPrincipal />
-          {/* Conteúdo adicional da Tela Principal */}
-        </div>
-    );
-}
+const TelaPrincipal: React.FC = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-500">
+      <HeaderPrincipal />
+      {/* Conteúdo adicional da Tela Principal */}
+    </div>
+  );
+};
 
 export default TelaPrincipal;

@@ -1,9 +1,12 @@
 import React from 'react';
+import AppRoutes from './Routes';
 
 const App: React.FC = () => {
   return (
-    <h1>MAPEAMENTO E PREDIÇÃO CINTILAÇÃO IONOSFÉRICA</h1>
+    <div>
+      <AppRoutes />
+    </div>
   );
-}
+};
 
 export default App;
