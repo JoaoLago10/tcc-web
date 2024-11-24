@@ -1,13 +1,11 @@
-import React from "react";
-import MainSection3 from "../layout/Tela3/MainSection3";
+import React from 'react';
 
-function Tela3() {
-    return (
-        <div>
-          <MainSection3 />
-          {/* Conteúdo adicional da Tela Principal */}
-        </div>
-    );
-}
+const Tela3: React.FC = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-500">
+      <h1 className="text-white">Tela 3</h1>
+    </div>
+  );
+};
 
 export default Tela3;

@@ -1,11 +1,13 @@
 import React from 'react';
 import AppRoutes from './Routes';
+import { BrowserRouter  } from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <AppRoutes />
-    </div>
+  <BrowserRouter>
+    <AppRoutes/>
+  </BrowserRouter>  
+ 
   );
 };
 

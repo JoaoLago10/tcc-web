@@ -31,6 +31,6 @@ export function Botao3() {
 
 export function Botao4() {
   return (
-    <button className="bg-gray-700 text-white py-2 px-4 rounded-md"></button>
+    <button className="bg-gray-700 text-white py-2 px-4 rounded-md">Tela 4</button>
   );
 }

@@ -1,14 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import MainSection2 from "../layout/Tela2/MainSection2";
-
-function Tela2() {
-    return (
-        <div>
-          <MainSection2 />
-          {/* Conteúdo adicional da Tela Principal */}
-        </div>
-    );
-}
+const Tela2: React.FC = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-500">
+      <h1 className="text-white">Tela 2</h1>
+    </div>
+  );
+};
 
 export default Tela2;
