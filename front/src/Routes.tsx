@@ -1,11 +1,11 @@
+// Routes.tsx
 import React from 'react';
-import { Route } from 'react-router-dom';
-import { Routes } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
 import TelaPrincipal from './screens/TelaPrincipal';
 import Tela2 from './screens/Tela2';
 import Tela3 from './screens/Tela3';
 
-const AppRoutes: React.FC = () => {
+function AppRoutes()  {
   return (
     <Routes>
       <Route path="/" element={<TelaPrincipal />} />
@@ -13,6 +13,6 @@ const AppRoutes: React.FC = () => {
       <Route path="/tela3" element={<Tela3 />} />
     </Routes>
   );
-}
+};
 
 export default AppRoutes;

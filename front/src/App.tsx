@@ -1,9 +1,14 @@
 import React from 'react';
+import AppRoutes from './Routes';
+import { BrowserRouter  } from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
-    <h1>MAPEAMENTO E PREDIÇÃO CINTILAÇÃO IONOSFÉRICA</h1>
+  <BrowserRouter>
+    <AppRoutes/>
+  </BrowserRouter>  
+ 
   );
-}
+};
 
 export default App;

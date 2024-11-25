@@ -1,11 +1,11 @@
 import React from 'react';
 
-function MainSection3() {
+const MainSection3: React.FC = () => {
   return (
-    <div>
-      <h1>TELA 2</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-500">
+      <h1 className="text-3xl text-black">DADOS</h1>
     </div>
   );
-}
+};
 
 export default MainSection3;
