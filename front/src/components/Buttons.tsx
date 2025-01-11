@@ -1,7 +1,6 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export function Botao2() {
+export function BotaoInstrucoes() {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -15,7 +14,7 @@ export function Botao2() {
   );
 }
 
-export function Botao3() {
+export function BotaoDados() {
   const navigate = useNavigate();
 
   const handleClick = () => {
