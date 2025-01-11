@@ -1,5 +1,5 @@
 import React from 'react';
-import { BotaoInstrucoes, Botao4, BotaoDados } from '../../components/Buttons';
+import { BotaoInstrucoes,  BotaoApresentaçao, BotaoMapeamento } from '../../components/Buttons';
 
 const Header3: React.FC = () => {
   return (
@@ -7,7 +7,8 @@ const Header3: React.FC = () => {
     <div className="w-full bg-white h-12 mt-5 flex items-center justify-center">
       <div className="flex space-x-4">
         <BotaoInstrucoes />
-        <Botao4 />
+        <BotaoApresentaçao/>
+        <BotaoMapeamento/>
       </div>
     </div></>
   );

@@ -4,7 +4,7 @@ export function BotaoInstrucoes() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/tela2');
+    navigate('/telaInstrucoes');
   };
 
   return (
@@ -18,7 +18,7 @@ export function BotaoDados() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/tela3');
+    navigate('/telaDados');
   };
 
   return (
@@ -28,8 +28,30 @@ export function BotaoDados() {
   );
 }
 
-export function Botao4() {
+export function BotaoMapeamento() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/telaMapeamento');
+  };
+
   return (
-    <button className="bg-gray-700 text-white py-2 px-4 rounded-md">OUTROS</button>
+    <button onClick={handleClick} className="bg-gray-700 text-white py-2 px-4 rounded-md">
+    MAPEAMENTO
+    </button>
+  );
+}
+
+export function BotaoApresentaçao() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/');
+  };
+
+  return (
+    <button onClick={handleClick} className="bg-gray-700 text-white py-2 px-4 rounded-md">
+     APRESENTAÇAO
+    </button>
   );
 }

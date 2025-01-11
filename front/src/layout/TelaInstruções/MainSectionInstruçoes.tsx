@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MainSection2: React.FC = () => {
+const MainSectionInstruçoes: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-500">
       <h1 className="text-3xl text-black">INSTRUCÕES</h1>
@@ -8,4 +8,5 @@ const MainSection2: React.FC = () => {
   );
 };
 
-export default MainSection2;
+export default MainSectionInstruçoes;
+

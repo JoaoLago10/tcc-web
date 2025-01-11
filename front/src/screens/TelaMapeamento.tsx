@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderMapeamento from '../layout/TelaMapeamento/HeaderMapeamento';
 import MainSectionMapeamento from '../layout/TelaMapeamento/MainSectionMapeamento';
 
-const TelaPrincipal: React.FC = () => {
+const TelaMapeamento: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-blue-500">
       <HeaderMapeamento />
@@ -15,4 +15,4 @@ const TelaPrincipal: React.FC = () => {
   );
 };
 
-export default TelaPrincipal;
+export default TelaMapeamento;

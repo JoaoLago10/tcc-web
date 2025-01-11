@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderDados from '../layout/TelaDados/HeaderDados';  
 import MainSectionDados from '../layout/TelaDados/MainSectionDados';
 
-const Tela3: React.FC = () => {
+const TelaDados: React.FC = () => {
   return (
     <div className="pt-20">
       <HeaderDados />
@@ -11,4 +11,4 @@ const Tela3: React.FC = () => {
   );
 };
 
-export default Tela3;
+export default TelaDados;
