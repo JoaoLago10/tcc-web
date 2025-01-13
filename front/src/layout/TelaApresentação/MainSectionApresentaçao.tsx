@@ -1,13 +1,11 @@
-// src/layout/TelaApresentação/MainSectionApresentaçao.tsx
 import React from 'react';
-import LogoUFMA from '../../assets/images/LogoUFMA.png'; 
 
 const MainSectionApresentaçao: React.FC = () => {
   return (
-    <div className="bg-blue-500 min-h-screen flex items-center justify-center">
-      <img src={LogoUFMA} alt="Logo UFMA" className="w-44" />
-      {/* Outros conteúdos podem ser adicionados aqui */}
-    </div>
+    <div className="bg-gray-400 rounded-lg w-full md:w-96 h-64 md:h-96 flex items-center justify-center text-3xl overflow-auto mr-0 md:mr-8 mb-8 md:mb-0">
+      APRESENTAÇÃO
+    </div>  
+ 
   );
 };
 

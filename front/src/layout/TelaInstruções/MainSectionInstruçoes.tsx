@@ -2,9 +2,11 @@ import React from 'react';
 
 const MainSectionInstruçoes: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-blue-500">
-      <h1 className="text-3xl text-black">INSTRUCÕES</h1>
-    </div>
+    <>
+        <div className="bg-gray-400 rounded-lg w-96 h-96 flex items-center justify-center text-3xl overflow-auto">
+         INSTRUÇÕES
+        </div>
+    </>
   );
 };
 

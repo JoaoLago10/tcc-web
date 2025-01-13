@@ -4,9 +4,13 @@ import MainSectionInstruçoes from '../layout/TelaInstruções/MainSectionInstru
 
 const TelaInstruçoes: React.FC = () => {
   return (
-    <div className="pt-Instruçoes0">
+    <div className="flex flex-col min-h-screen bg-blue-500">
       <HeaderInstruçoes />
-      <MainSectionInstruçoes />
+      <div className="flex flex-1 items-center w-full">
+        <div className="ml-14">
+          <MainSectionInstruçoes />
+        </div>
+      </div>
     </div>
   );
 };
