@@ -4,7 +4,7 @@ import MainSectionInstruçoes from '../layout/TelaInstruções/MainSectionInstru
 
 const TelaInstruçoes: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-blue-500">
+    <div className="flex flex-col min-h-screen bg-gray-800">
       <HeaderInstruçoes />
       <div className="flex flex-1 items-center w-full">
         <div className="ml-14">

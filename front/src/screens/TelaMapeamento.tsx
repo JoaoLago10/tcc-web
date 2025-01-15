@@ -4,7 +4,7 @@ import MainSectionMapeamento from '../layout/TelaMapeamento/MainSectionMapeament
 
 const TelaMapeamento: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-blue-500">
+    <div className="flex flex-col min-h-screen bg-gray-800">
       <HeaderMapeamento />
       <div className="flex flex-1 items-center w-full">
         <div className="ml-14">
