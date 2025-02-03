@@ -55,3 +55,13 @@ export function BotaoApresentaçao() {
     </button>
   );
 }
+
+export function BotaoGerarMapa() {
+
+
+  return (
+    <button className="bg-blue-500 text-white py-2 px-4 rounded-md w-full">
+      Gerar Mapa
+    </button>
+  );
+}
